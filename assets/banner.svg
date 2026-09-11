@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="380" style="background:#090d16; border-radius: 12px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b14"/>
+      <stop offset="50%" stop-color="#0c1322"/>
+      <stop offset="100%" stop-color="#0a101f"/>
+    </linearGradient>
+    
+    <linearGradient id="cyanPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#4facfe"/>
+    </linearGradient>
+
+    <linearGradient id="neonGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38ef7d"/>
+      <stop offset="50%" stop-color="#11998e"/>
+      <stop offset="100%" stop-color="#00f2fe"/>
+    </linearGradient>
+
+    <linearGradient id="purplePink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b176fc"/>
+      <stop offset="50%" stop-color="#e056fd"/>
+      <stop offset="100%" stop-color="#f093fb"/>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.7" stroke-opacity="0.4"/>
+      <circle cx="40" cy="40" r="1.5" fill="#334155" fill-opacity="0.5"/>
+    </pattern>
+
+    <style>
+      .pulse-glow {
+        animation: pulseGlow 4s ease-in-out infinite alternate;
+      }
+      .traffic-flow {
+        stroke-dasharray: 8, 12;
+        animation: flowDash 2.5s linear infinite;
+      }
+      .traffic-flow-rev {
+        stroke-dasharray: 8, 12;
+        animation: flowDashRev 3s linear infinite;
+      }
+      .badge-pulse {
+        animation: badgePulse 3s ease-in-out infinite alternate;
+      }
+      .node-pulse {
+        animation: nodePulse 2s ease-in-out infinite alternate;
+      }
+      .signal-circle {
+        animation: radarPulse 3s cubic-bezier(0.2, 0.8, 0.2, 1) infinite;
+        transform-origin: 600px 225px;
+      }
+
+      @keyframes pulseGlow {
+        0% { opacity: 0.35; transform: scale(0.98); }
+        100% { opacity: 0.75; transform: scale(1.02); }
+      }
+      @keyframes flowDash {
+        to { stroke-dashoffset: -40; }
+      }
+      @keyframes flowDashRev {
+        to { stroke-dashoffset: 40; }
+      }
+      @keyframes badgePulse {
+        0% { transform: translateY(0px); }
+        50% { transform: translateY(-3px); }
+        100% { transform: translateY(0px); }
+      }
+      @keyframes nodePulse {
+        0% { r: 18; opacity: 0.8; }
+        100% { r: 21; opacity: 1; filter: drop-shadow(0 0 10px #00f2fe); }
+      }
+      @keyframes radarPulse {
+        0% { r: 25; opacity: 0.8; stroke-width: 2; }
+        50% { r: 55; opacity: 0.3; stroke-width: 1.5; }
+        100% { r: 85; opacity: 0; stroke-width: 0.5; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="380" rx="12" fill="url(#bgGrad)" />
+  <rect width="1200" height="380" rx="12" fill="url(#grid)" />
+
+  <!-- Ambient Light Orbs -->
+  <circle cx="250" cy="190" r="160" fill="#3b82f6" opacity="0.12" filter="url(#glow)" class="pulse-glow" />
+  <circle cx="600" cy="225" r="180" fill="#8b5cf6" opacity="0.15" filter="url(#glow)" class="pulse-glow" />
+  <circle cx="950" cy="190" r="160" fill="#00f2fe" opacity="0.12" filter="url(#glow)" class="pulse-glow" />
+
+  <!-- Radar effect behind Gateway -->
+  <circle cx="600" cy="225" r="30" fill="none" stroke="#38ef7d" class="signal-circle" />
+  <circle cx="600" cy="225" r="30" fill="none" stroke="#00f2fe" class="signal-circle" style="animation-delay: 1.5s;" />
+
+  <!-- Animated Conduits / Pipelines -->
+  <!-- Left Side: Clients to Gateway -->
+  <path d="M 160 170 C 350 170, 420 225, 540 225" fill="none" stroke="#1e293b" stroke-width="3" />
+  <path d="M 160 225 C 350 225, 420 225, 540 225" fill="none" stroke="#1e293b" stroke-width="3" />
+  <path d="M 160 280 C 350 280, 420 225, 540 225" fill="none" stroke="#1e293b" stroke-width="3" />
+
+  <path d="M 160 170 C 350 170, 420 225, 540 225" fill="none" stroke="#00f2fe" stroke-width="2" class="traffic-flow" opacity="0.9" />
+  <path d="M 160 225 C 350 225, 420 225, 540 225" fill="none" stroke="#38ef7d" stroke-width="2.5" class="traffic-flow" opacity="0.9" style="animation-duration: 2s;" />
+  <path d="M 160 280 C 350 280, 420 225, 540 225" fill="none" stroke="#e056fd" stroke-width="2" class="traffic-flow" opacity="0.9" style="animation-duration: 3s;" />
+
+  <!-- Right Side: Gateway to Backends & AI -->
+  <path d="M 660 225 C 780 225, 850 170, 1040 170" fill="none" stroke="#1e293b" stroke-width="3" />
+  <path d="M 660 225 C 780 225, 850 225, 1040 225" fill="none" stroke="#1e293b" stroke-width="3" />
+  <path d="M 660 225 C 780 225, 850 280, 1040 280" fill="none" stroke="#1e293b" stroke-width="3" />
+
+  <path d="M 660 225 C 780 225, 850 170, 1040 170" fill="none" stroke="#00f2fe" stroke-width="2" class="traffic-flow" opacity="0.9" style="animation-duration: 2.2s;" />
+  <path d="M 660 225 C 780 225, 850 225, 1040 225" fill="none" stroke="#b176fc" stroke-width="2.5" class="traffic-flow" opacity="0.9" style="animation-duration: 1.8s;" />
+  <path d="M 660 225 C 780 225, 850 280, 1040 280" fill="none" stroke="#38ef7d" stroke-width="2" class="traffic-flow" opacity="0.9" style="animation-duration: 2.6s;" />
+
+  <!-- Left Client Nodes -->
+  <g transform="translate(160, 170)">
+    <circle r="16" fill="#0f172a" stroke="#00f2fe" stroke-width="2" filter="url(#softGlow)"/>
+    <text text-anchor="middle" dy="4" fill="#38bdf8" font-size="10" font-weight="700">WEB</text>
+  </g>
+  <g transform="translate(160, 225)">
+    <circle r="16" fill="#0f172a" stroke="#38ef7d" stroke-width="2" filter="url(#softGlow)"/>
+    <text text-anchor="middle" dy="4" fill="#4ade80" font-size="10" font-weight="700">APP</text>
+  </g>
+  <g transform="translate(160, 280)">
+    <circle r="16" fill="#0f172a" stroke="#e056fd" stroke-width="2" filter="url(#softGlow)"/>
+    <text text-anchor="middle" dy="4" fill="#f472b6" font-size="9" font-weight="700">B2B</text>
+  </g>
+
+  <!-- Central Hub: API Gateway -->
+  <g transform="translate(600, 225)">
+    <rect x="-65" y="-38" width="130" height="76" rx="14" fill="#0f172a" stroke="#6366f1" stroke-width="2.5" filter="url(#softGlow)"/>
+    <rect x="-61" y="-34" width="122" height="68" rx="10" fill="#131d35" />
+    <circle cx="0" cy="-8" r="10" fill="#00f2fe" opacity="0.2"/>
+    <path d="M -6 -8 L 0 -14 L 6 -8 L 0 -2 Z" fill="#00f2fe"/>
+    <text text-anchor="middle" y="14" fill="#ffffff" font-size="13" font-weight="800" letter-spacing="1">API GATEWAY</text>
+    <text text-anchor="middle" y="27" fill="#94a3b8" font-size="9" font-weight="500">POLICY • ROUTING • WAF</text>
+  </g>
+
+  <!-- Right Target Nodes -->
+  <g transform="translate(1040, 170)">
+    <circle r="17" fill="#0f172a" stroke="#00f2fe" stroke-width="2" filter="url(#softGlow)"/>
+    <text text-anchor="middle" dy="4" fill="#38bdf8" font-size="9" font-weight="700">REST</text>
+  </g>
+  <g transform="translate(1040, 225)">
+    <circle r="17" fill="#0f172a" stroke="#b176fc" stroke-width="2" filter="url(#softGlow)"/>
+    <text text-anchor="middle" dy="4" fill="#c084fc" font-size="9" font-weight="700">GraphQL</text>
+  </g>
+  <g transform="translate(1040, 280)">
+    <circle r="17" fill="#0f172a" stroke="#38ef7d" stroke-width="2" filter="url(#softGlow)"/>
+    <text text-anchor="middle" dy="4" fill="#4ade80" font-size="9" font-weight="700">AI / LLM</text>
+  </g>
+
+  <!-- Main Title & Branding -->
+  <g transform="translate(600, 65)">
+    <text text-anchor="middle" fill="url(#cyanPurple)" font-size="34" font-weight="900" letter-spacing="2" filter="url(#softGlow)">
+      ⚡ AWESOME API MANAGEMENT ⚡
+    </text>
+    <text text-anchor="middle" y="32" fill="#cbd5e1" font-size="14" font-weight="400" letter-spacing="0.5">
+      The Complete Directory of API Gateways, Developer Portals, Security, Lifecycle &amp; AI Gateways
+    </text>
+  </g>
+
+  <!-- Floating Feature Badges -->
+  <g class="badge-pulse" transform="translate(240, 115)">
+    <rect width="130" height="26" rx="13" fill="#1e293b" stroke="#00f2fe" stroke-width="1.2" opacity="0.95"/>
+    <text x="65" y="17" text-anchor="middle" fill="#38bdf8" font-size="10.5" font-weight="600">🛡️ API Security &amp; WAF</text>
+  </g>
+
+  <g class="badge-pulse" transform="translate(420, 115)" style="animation-delay: 0.8s;">
+    <rect width="160" height="26" rx="13" fill="#1e293b" stroke="#38ef7d" stroke-width="1.2" opacity="0.95"/>
+    <text x="80" y="17" text-anchor="middle" fill="#4ade80" font-size="10.5" font-weight="600">🌐 Full-Lifecycle &amp; Portals</text>
+  </g>
+
+  <g class="badge-pulse" transform="translate(630, 115)" style="animation-delay: 1.4s;">
+    <rect width="150" height="26" rx="13" fill="#1e293b" stroke="#b176fc" stroke-width="1.2" opacity="0.95"/>
+    <text x="75" y="17" text-anchor="middle" fill="#c084fc" font-size="10.5" font-weight="600">🤖 AI &amp; LLM Gateways</text>
+  </g>
+
+  <g class="badge-pulse" transform="translate(830, 115)" style="animation-delay: 2.1s;">
+    <rect width="130" height="26" rx="13" fill="#1e293b" stroke="#f59e0b" stroke-width="1.2" opacity="0.95"/>
+    <text x="65" y="17" text-anchor="middle" fill="#fbbf24" font-size="10.5" font-weight="600">🌍 Open-Source &amp; SaaS</text>
+  </g>
+
+  <!-- Bottom Metric Bar -->
+  <g transform="translate(600, 352)">
+    <text text-anchor="middle" fill="#64748b" font-size="11.5" font-weight="500" letter-spacing="1">
+      50+ CURATED PLATFORMS  •  OPEN-SOURCE GATEWAYS  •  SAAS PRICING &amp; LIMITS  •  ARCHITECTURE STACKS
+    </text>
+  </g>
+</svg>

@@ -1,10 +1,23 @@
-# Awesome-API-Management
+# ⚡ Awesome-API-Management
 
-# 🔌 Top API Management Platforms & Open-Source API Management
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-API-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-API-Management?style=flat-square&logo=github&color=gold" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-API-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-API-Management?style=flat-square&logo=github&color=blue" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-API-Management/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-API-Management?style=flat-square&color=orange" alt="Issues"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-API-Management/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-API-Management/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome API Management Banner" width="100%">
+</p>
 
+# 🔌 Top API Management Platforms & Open-Source API Gateways
 
-> A curated list of **API Management platforms, API gateways, developer portals, API security platforms, API lifecycle tools and open-source API management software** for designing, publishing, securing, governing, observing and monetizing APIs.
+> 🚀 A curated directory of **API Management platforms, cloud API gateways, developer portals, API security & WAF engines, lifecycle governance, AI/LLM gateways, and open-source API management ecosystems** for designing, testing, securing, routing, and monetizing modern APIs.
 
 
 
@@ -184,59 +197,31 @@ The open-source ecosystem is especially strong at the **gateway and runtime laye
 
 # ☁️ SaaS/Hosted Platforms
 
-
+> 📈 **Market Intelligence:** The global API Management market is valued at **$5.8 Billion in 2025** and projected to surge to **$17.4 Billion by 2030** (CAGR ~24.6%). The sector is **moderately fragmented**—dominated at the enterprise tier by cloud hyperscalers (Microsoft Azure, Google Cloud Apigee, AWS) and legacy integration giants (Salesforce MuleSoft, IBM), while specialized API platform pioneers (Kong, Postman, Tyk, Gravitee) and a rapidly expanding open-source ecosystem command significant developer velocity, preventing a winner-take-all monopoly.
 
 Commercial API management platforms provide combinations of API gateways, developer portals, analytics, governance, security, lifecycle management and API products.
 
-
-
-| Platform                                                                         | Company      | Primary Focus                | Key Capabilities                                                                 |
-
-| -------------------------------------------------------------------------------- | ------------ | ---------------------------- | -------------------------------------------------------------------------------- |
-
-| [Postman](https://www.postman.com/)                                              | Postman      | API platform                 | Design, testing, documentation, collaboration, API governance and API management |
-
-| [Apigee](https://cloud.google.com/apigee)                                        | Google Cloud | Enterprise API management    | Gateway, analytics, security, portals, monetization and governance               |
-
-| [Kong Konnect](https://konghq.com/products/kong-konnect)                         | Kong         | Cloud API management         | Gateway, control plane, security, analytics, portals and AI gateway              |
-
-| [Stoplight](https://stoplight.io/)                                               | SmartBear    | API design & governance      | OpenAPI design, documentation, mocking, governance and collaboration             |
-
-| [RapidAPI](https://rapidapi.com/)                                                | RapidAPI     | API marketplace              | API discovery, marketplace, testing, analytics and management                    |
-
-| [Gravitee](https://www.gravitee.io/)                                             | Gravitee     | API management               | Gateway, event-native APIs, portal, policies, analytics and governance           |
-
-| [DreamFactory](https://www.dreamfactory.com/)                                    | DreamFactory | API generation               | Automatic REST APIs for databases and enterprise systems                         |
-
-| [Boomi API Management](https://boomi.com/platform/api-management/)               | Boomi        | Integration + API management | API lifecycle, integration, gateway, security and governance                     |
-
-| [MuleSoft Anypoint Platform](https://www.mulesoft.com/platform/api)              | Salesforce   | Integration + API management | API design, gateway, integration, governance, analytics and marketplace          |
-
-| [Tyk](https://tyk.io/)                                                           | Tyk          | API management               | Gateway, dashboard, developer portal, analytics and lifecycle management         |
-
-| [Kong](https://konghq.com/)                                                      | Kong         | API gateway + management     | Gateway, plugins, security, observability, service connectivity and AI gateway   |
-
-| [Azure API Management](https://azure.microsoft.com/products/api-management/)     | Microsoft    | Enterprise API management    | Gateway, developer portal, policies, analytics and hybrid deployment             |
-
-| [WSO2 API Manager](https://wso2.com/api-manager/)                                | WSO2         | Full API lifecycle           | Gateway, publisher, developer portal, analytics and governance                   |
-
-| [IBM API Connect](https://www.ibm.com/products/api-connect)                      | IBM          | Enterprise API management    | API lifecycle, gateway, security, analytics and developer portal                 |
-
-| [Akana](https://www.akana.com/)                                                  | Akana        | Enterprise API management    | API gateway, security, lifecycle management and governance                       |
-
-| [AWS API Gateway](https://aws.amazon.com/api-gateway/)                           | AWS          | Cloud API gateway            | REST, HTTP and WebSocket APIs, throttling and AWS integration                    |
-
-| [Red Hat 3scale](https://www.redhat.com/en/technologies/jboss-middleware/3scale) | Red Hat      | API management               | Gateway, developer portal, policies, analytics and API products                  |
-
-| [Axway Amplify](https://www.axway.com/en/products/api-management)                | Axway        | Enterprise API management    | API lifecycle, gateway, governance, security and catalog                         |
-
-| [webMethods API Management](https://www.softwareag.com/)                         | Software AG  | Integration + API management | API gateway, lifecycle, integration and governance                               |
-
-| [Sensedia](https://www.sensedia.com/)                                            | Sensedia     | API management               | Gateway, governance, developer portal and integration                            |
-
-| [Gravitee Cloud](https://www.gravitee.io/)                                       | Gravitee     | Managed API management       | REST, event APIs, gateway and developer portal                                   |
-
-
+| 🏢 Platform | 🏛️ Company | 💰 Valuation / Revenue | 💵 Starting Tier Pricing | 🎁 Free Tier / Trial Limits | 🎯 Primary Focus | 🔑 Key Capabilities |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| [Azure API Management](https://azure.microsoft.com/products/api-management/) | Microsoft | Valuation ~$3.1T / Revenue ~$245B | Consumption: $0.000035/call ($3.50 per 100k calls); Developer tier: $48.04/month per unit | 1,000,000 free API calls/month forever on Consumption tier; plus 30-day free trial with $200 Azure credits | Enterprise API management | Gateway, developer portal, policies, analytics, hybrid deployment |
+| [Apigee](https://cloud.google.com/apigee) | Google Cloud | Valuation ~$2.1T / Revenue ~$350B | Pay-as-you-go: $0.20/env/hr (~$146/month) + $20/million calls (Standard proxies) | 60-day free evaluation tier (sandbox env, up to 10 proxies/environments) + 90-day $300 Google Cloud trial credits | Enterprise API management | Gateway, analytics, AI security, portals, monetization, governance |
+| [AWS API Gateway](https://aws.amazon.com/api-gateway/) | AWS | Valuation ~$2.0T / Revenue ~$575B | $1.00/million calls (HTTP APIs) or $3.50/million calls (REST APIs up to 333M/mo) | 12-month free tier: 1,000,000 HTTP/REST API calls and 1,000,000 WebSocket messages per month | Cloud API gateway | REST, HTTP, WebSocket APIs, throttling, native AWS integration |
+| [MuleSoft Anypoint Platform](https://www.mulesoft.com/platform/api) | Salesforce | Valuation ~$260B / Revenue ~$35B | Anypoint Starter: ~$2,500/month ($30,000/year base) or PAYG starting at $1,000/mo | 30-day free trial with full platform access (design, mock, deploy to CloudHub up to 1 vCore) | Integration + API management | API design, gateway, integration, governance, analytics, marketplace |
+| [IBM API Connect](https://www.ibm.com/products/api-connect) | IBM | Valuation ~$200B / Revenue ~$62B | IBM Cloud Developer instance: $100/month (100,000 calls included; then $0.001/call); Enterprise SaaS: $1,250/month | 30-day free trial with full API manager, developer portal, and test environment up to 50,000 test calls | Enterprise API management | API lifecycle, gateway, security, analytics, developer portal |
+| [Red Hat 3scale](https://www.redhat.com/en/technologies/jboss-middleware/3scale) | Red Hat (IBM) | Acquired for $34B (by IBM) | Red Hat OpenShift API Management: ~$1,500/month; Enterprise 3scale subscription: ~$18,000/year | 90-day free trial via Red Hat Developer Sandbox (up to 20 API requests/second limit) | API management | Gateway, developer portal, policies, analytics, API products |
+| [Postman](https://www.postman.com/) | Postman | Valuation ~$5.6B / ARR ~$150M+ | Solo plan: $9/user/month (annual) or $12/month; Team plan: $19/user/month (annual) or $24/month | Free forever plan: 1 user, 1,000 monitoring requests/mo, 50 AI credits/mo, unlimited collection runs & mock calls | API platform | Design, testing, documentation, collaboration, API governance, workspaces |
+| [Boomi API Management](https://boomi.com/platform/api-management/) | Boomi | Valuation ~$4.0B / Revenue ~$400M | Base edition: ~$2,000/month ($24,000/year base) | 30-day free trial with full AtomSphere access, up to 3 integrations/APIs deployed | Integration + API management | API lifecycle, integration, gateway, security, governance |
+| [webMethods API Management](https://www.softwareag.com/) | Software AG | Valuation ~$3.5B / Revenue ~$950M | webMethods.io API Basic: ~$580/month (up to 500,000 API transactions/month) | 30-day free trial with full enterprise gateway and portal features, limited to 50,000 transactions | Integration + API management | API gateway, lifecycle, integration, governance |
+| [Akana](https://www.akana.com/) | Perforce / Akana | Valuation ~$2.5B / Revenue ~$300M | Business subscription: ~$2,080/month ($25,000/year base) | 30-day free trial sandbox with full API design, security policies, and developer portal | Enterprise API management | API gateway, security, lifecycle management, governance |
+| [Kong Konnect](https://konghq.com/products/kong-konnect) | Kong | Valuation ~$2.0B / ARR ~$100M+ | Plus tier: $250/month (includes 3 control planes, 10M API requests/month) | Free forever tier: 1 service, 1 control plane, up to 500,000 requests/mo; 30-day Enterprise free trial | Cloud API management & AI Gateway | Gateway, control plane, security, analytics, portals, AI gateway |
+| [Stoplight](https://stoplight.io/) | SmartBear | Valuation ~$1.2B / Revenue ~$150M+ | Basic plan: $39/month (up to 3 editors); Pro plan: $99/month | Free forever plan: 1 project, 3 users, unlimited design & documentation, web mock server | API design & governance | OpenAPI design, documentation, mocking, governance, collaboration |
+| [Axway Amplify](https://www.axway.com/en/products/api-management) | Axway | Market Cap ~$1.1B / Revenue ~$330M | Amplify Essential: ~$1,200/month ($14,400/year base) | 30-day free trial of Amplify Enterprise Marketplace with full catalog & discovery integration | Enterprise API management | API lifecycle, multi-gateway governance, security, catalog |
+| [RapidAPI](https://rapidapi.com/) | Rapid | Valuation ~$1.0B / Revenue ~$50M | Pro plan: $10/month; Private API Hub basic: $10/month | Free forever basic plan: consume public APIs (free tiers per API, 100–1,000 calls/mo), 1 private API listing | API marketplace & hub | API discovery, marketplace, testing, analytics, enterprise hub |
+| [WSO2 API Manager](https://wso2.com/api-manager/) | WSO2 | Valuation ~$600M / Revenue ~$100M | Choreo PAYG: $50/component/month; WSO2 Cloud APIM: $1,000/month | Free forever tier: 5 components, 1,000 build mins/mo, 100,000 API calls/mo on Choreo; 14-day trial on WSO2 Cloud | Full API lifecycle | Gateway, publisher, developer portal, analytics, governance |
+| [Gravitee](https://www.gravitee.io/) | Gravitee | Valuation ~$500M / ARR ~$40M | Gravitee Cloud Starter: $400/month (managed control plane, 1M API calls/mo) | 14-day free trial with full Enterprise features (event APIs, secrets, alerting); OSS core is free forever | API & Event-native management | Gateway, event-native APIs (Kafka/MQTT), portal, policies, analytics |
+| [Sensedia](https://www.sensedia.com/) | Sensedia | Valuation ~$150M / Revenue ~$40M | Growth package: ~$1,500/month (up to 2 million API calls/month) | 30-day free trial sandbox with gateway, analytics, and developer portal | API management | Gateway, governance, developer portal, integration |
+| [Tyk](https://tyk.io/) | Tyk | Valuation ~$120M / ARR ~$25M | Tyk Cloud PayG: $0.07/hour (~$50/month) base; Developer plan: $120/month | 14-day free trial with unlimited API calls, full dashboard & developer portal; OSS gateway is free forever | API management | Gateway, dashboard, developer portal, analytics, GraphQL |
+| [DreamFactory](https://www.dreamfactory.com/) | DreamFactory | Valuation ~$20M / Revenue ~$5M | Standard plan: $499/month (instant REST APIs, unlimited databases) | 14-day free trial with unlimited API generation, connecting up to 5 databases | API generation | Automatic REST APIs for databases, SOAP-to-REST, enterprise auth |
 
 > **Note:** API platforms vary substantially in scope. Some are primarily API lifecycle/developer platforms, while others are gateway-first API management systems. Postman and Stoplight, for example, are especially strong in API development workflows, while Apigee, Kong, Azure APIM, WSO2 and MuleSoft span broader API management capabilities.
 
@@ -312,45 +297,27 @@ It includes:
 
 # 🚪 Open-Source API Gateways
 
-
-
 API gateways are the runtime foundation of many API management systems.
 
-
-
-| Project                                                                                 | Description                         | License             |
-
-| --------------------------------------------------------------------------------------- | ----------------------------------- | ------------------- |
-
-| [Apache APISIX](https://github.com/apache/apisix)                                       | Dynamic, cloud-native API gateway   | Apache-2.0          |
-
-| [Kong Gateway](https://github.com/Kong/kong)                                            | Extensible API gateway              | Apache-2.0 OSS core |
-
-| [Tyk](https://github.com/TykTechnologies/tyk)                                           | Go-based API gateway                | MPL-2.0             |
-
-| [Gravitee API Management](https://github.com/gravitee-io/gravitee-api-management)       | API gateway and management platform | Apache-2.0 core     |
-
-| [KrakenD](https://github.com/krakendio/krakend-ce)                                      | High-performance API gateway        | Apache-2.0          |
-
-| [Envoy Proxy](https://github.com/envoyproxy/envoy)                                      | High-performance service proxy      | Apache-2.0          |
-
-| [Traefik](https://github.com/traefik/traefik)                                           | Cloud-native edge router            | MIT                 |
-
-| [Gloo Gateway](https://github.com/kgateway-dev/kgateway)                                | Kubernetes-native gateway           | Apache-2.0          |
-
-| [Zuul](https://github.com/Netflix/zuul)                                                 | Programmable edge service           | Apache-2.0          |
-
-| [Apache APISIX Ingress Controller](https://github.com/apache/apisix-ingress-controller) | Kubernetes integration for APISIX   | Apache-2.0          |
-
-| [Higress](https://github.com/alibaba/higress)                                           | Cloud-native API gateway            | Apache-2.0          |
-
-| [Easegress](https://github.com/megaease/easegress)                                      | Cloud-native traffic orchestration  | Apache-2.0          |
-
-| [NGINX](https://github.com/nginx/nginx)                                                 | Reverse proxy / gateway foundation  | BSD-2-Clause        |
-
-| [Caddy](https://github.com/caddyserver/caddy)                                           | Extensible web server / proxy       | Apache-2.0          |
-
-
+| 🚪 Project | 🌟 Stars | 📝 Description | 📜 License |
+| :--- | :---: | :--- | :--- |
+| [Caddy](https://github.com/caddyserver/caddy) | [![Stars](https://img.shields.io/github/stars/caddyserver/caddy?style=social&color=white)](https://github.com/caddyserver/caddy/stargazers) | Extensible web server, automatic HTTPS & reverse proxy | Apache-2.0 |
+| [Traefik](https://github.com/traefik/traefik) | [![Stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers) | Cloud-native HTTP reverse proxy & API edge router | MIT |
+| [Kong Gateway](https://github.com/Kong/kong) | [![Stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers) | Cloud-native, high-performance extensible API gateway | Apache-2.0 OSS core |
+| [Envoy Proxy](https://github.com/envoyproxy/envoy) | [![Stars](https://img.shields.io/github/stars/envoyproxy/envoy?style=social&color=white)](https://github.com/envoyproxy/envoy/stargazers) | Cloud-native high-performance edge/service proxy | Apache-2.0 |
+| [NGINX](https://github.com/nginx/nginx) | [![Stars](https://img.shields.io/github/stars/nginx/nginx?style=social&color=white)](https://github.com/nginx/nginx/stargazers) | High-performance reverse proxy & gateway foundation | BSD-2-Clause |
+| [Apache APISIX](https://github.com/apache/apisix) | [![Stars](https://img.shields.io/github/stars/apache/apisix?style=social&color=white)](https://github.com/apache/apisix/stargazers) | Dynamic, high-performance cloud-native API gateway | Apache-2.0 |
+| [Zuul](https://github.com/Netflix/zuul) | [![Stars](https://img.shields.io/github/stars/Netflix/zuul?style=social&color=white)](https://github.com/Netflix/zuul/stargazers) | Programmable edge routing & dynamic filters service | Apache-2.0 |
+| [Spring Cloud Gateway](https://github.com/spring-cloud/spring-cloud-gateway) | [![Stars](https://img.shields.io/github/stars/spring-cloud/spring-cloud-gateway?style=social&color=white)](https://github.com/spring-cloud/spring-cloud-gateway/stargazers) | Non-blocking API Gateway built on Spring WebFlux | Apache-2.0 |
+| [Tyk](https://github.com/TykTechnologies/tyk) | [![Stars](https://img.shields.io/github/stars/TykTechnologies/tyk?style=social&color=white)](https://github.com/TykTechnologies/tyk/stargazers) | Fast, scalable, Go-based open-source API gateway | MPL-2.0 |
+| [KrakenD](https://github.com/krakendio/krakend-ce) | [![Stars](https://img.shields.io/github/stars/krakendio/krakend-ce?style=social&color=white)](https://github.com/krakendio/krakend-ce/stargazers) | Ultra high-performance stateless API gateway | Apache-2.0 |
+| [Easegress](https://github.com/megaease/easegress) | [![Stars](https://img.shields.io/github/stars/megaease/easegress?style=social&color=white)](https://github.com/megaease/easegress/stargazers) | Cloud-native traffic orchestration & pipeline gateway | Apache-2.0 |
+| [Higress](https://github.com/alibaba/higress) | [![Stars](https://img.shields.io/github/stars/alibaba/higress?style=social&color=white)](https://github.com/alibaba/higress/stargazers) | Next-gen cloud-native API gateway & AI gateway | Apache-2.0 |
+| [Gloo Gateway](https://github.com/kgateway-dev/kgateway) | [![Stars](https://img.shields.io/github/stars/kgateway-dev/kgateway?style=social&color=white)](https://github.com/kgateway-dev/kgateway/stargazers) | Kubernetes-native API gateway & Ingress (Envoy-based) | Apache-2.0 |
+| [Gravitee API Management](https://github.com/gravitee-io/gravitee-api-management) | [![Stars](https://img.shields.io/github/stars/gravitee-io/gravitee-api-management?style=social&color=white)](https://github.com/gravitee-io/gravitee-api-management/stargazers) | Event-native API gateway & management platform | Apache-2.0 core |
+| [APISIX Ingress Controller](https://github.com/apache/apisix-ingress-controller) | [![Stars](https://img.shields.io/github/stars/apache/apisix-ingress-controller?style=social&color=white)](https://github.com/apache/apisix-ingress-controller/stargazers) | Kubernetes ingress controller for Apache APISIX | Apache-2.0 |
+| [Janus](https://github.com/hellofresh/janus) | [![Stars](https://img.shields.io/github/stars/hellofresh/janus?style=social&color=white)](https://github.com/hellofresh/janus/stargazers) | Cloud-native API gateway written in Go with plugin system | MIT |
+| [Kusk Gateway](https://github.com/kubeshop/kusk-gateway) | [![Stars](https://img.shields.io/github/stars/kubeshop/kusk-gateway?style=social&color=white)](https://github.com/kubeshop/kusk-gateway/stargazers) | OpenAPI-driven Kubernetes API Gateway powered by Envoy | MIT |
 
 Apache APISIX is a particularly complete open-source gateway, with dynamic routing, load balancing, authentication, traffic management, observability and a large plugin ecosystem. Its current project is an Apache Software Foundation top-level project under Apache-2.0.
 
@@ -362,75 +329,41 @@ Apache APISIX is a particularly complete open-source gateway, with dynamic routi
 
 # 🏢 Full Open-Source API Management Platforms
 
-
-
 A gateway alone is not necessarily a complete API management platform.
-
-
 
 Full API management generally adds:
 
-
-
 ```text
-
 Gateway
-
    +
-
 API Publisher
-
    +
-
 Developer Portal
-
    +
-
 API Catalog
-
    +
-
 Subscriptions
-
    +
-
 Policies
-
    +
-
 Analytics
-
    +
-
 Governance
-
    +
-
 Lifecycle Management
-
 ```
 
-
-
-| Project                                                            | Gateway | Portal | Management | Analytics | Governance |
-
-| ------------------------------------------------------------------ | :-----: | :----: | :--------: | :-------: | :--------: |
-
-| [WSO2 API Manager](https://github.com/wso2/product-apim)           |    ✅    |    ✅   |      ✅     |     ✅     |      ✅     |
-
-| [Gravitee](https://github.com/gravitee-io/gravitee-api-management) |    ✅    |    ✅   |      ✅     |     ✅     |      ✅     |
-
-| [Kong](https://github.com/Kong/kong)                               |    ✅    |   ⚠️   |     ⚠️     |     ⚠️    |     ⚠️     |
-
-| [Tyk](https://github.com/TykTechnologies/tyk)                      |    ✅    |   ⚠️   |     ⚠️     |     ⚠️    |     ⚠️     |
-
-| [Apache APISIX](https://github.com/apache/apisix)                  |    ✅    |   ⚠️   |     ⚠️     |     ⚠️    |     ⚠️     |
-
-| [API7](https://api7.ai/)                                           |  APISIX |    ✅   |      ✅     |     ✅     |      ✅     |
-
-| [Gloo Gateway](https://github.com/kgateway-dev/kgateway)           |    ✅    |   ⚠️   |     ⚠️     |     ⚠️    |     ⚠️     |
-
-
+| 🏢 Project | 🌟 Stars | 🚪 Gateway | 📖 Portal | ⚙️ Management | 📊 Analytics | 🛡️ Governance |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| [Kong](https://github.com/Kong/kong) | [![Stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers) | ✅ | ⚠️ | ⚠️ | ⚠️ | ⚠️ |
+| [Apache APISIX](https://github.com/apache/apisix) | [![Stars](https://img.shields.io/github/stars/apache/apisix?style=social&color=white)](https://github.com/apache/apisix/stargazers) | ✅ | ⚠️ | ⚠️ | ⚠️ | ⚠️ |
+| [Tyk](https://github.com/TykTechnologies/tyk) | [![Stars](https://img.shields.io/github/stars/TykTechnologies/tyk?style=social&color=white)](https://github.com/TykTechnologies/tyk/stargazers) | ✅ | ⚠️ | ⚠️ | ⚠️ | ⚠️ |
+| [Gloo Gateway](https://github.com/kgateway-dev/kgateway) | [![Stars](https://img.shields.io/github/stars/kgateway-dev/kgateway?style=social&color=white)](https://github.com/kgateway-dev/kgateway/stargazers) | ✅ | ⚠️ | ⚠️ | ⚠️ | ⚠️ |
+| [Fusio](https://github.com/apioo/fusio) | [![Stars](https://img.shields.io/github/stars/apioo/fusio?style=social&color=white)](https://github.com/apioo/fusio/stargazers) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Gravitee](https://github.com/gravitee-io/gravitee-api-management) | [![Stars](https://img.shields.io/github/stars/gravitee-io/gravitee-api-management?style=social&color=white)](https://github.com/gravitee-io/gravitee-api-management/stargazers) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [WSO2 API Manager](https://github.com/wso2/product-apim) | [![Stars](https://img.shields.io/github/stars/wso2/product-apim?style=social&color=white)](https://github.com/wso2/product-apim/stargazers) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [WSO2 APK](https://github.com/wso2/apk) | [![Stars](https://img.shields.io/github/stars/wso2/apk?style=social&color=white)](https://github.com/wso2/apk/stargazers) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [API7](https://github.com/api7/api7) | [![Stars](https://img.shields.io/github/stars/api7/api7?style=social&color=white)](https://github.com/api7/api7/stargazers) | APISIX | ✅ | ✅ | ✅ | ✅ |
 
 > ⚠️ indicates that functionality may require separate components, integrations or commercial editions rather than being entirely contained in the open-source gateway.
 
@@ -756,61 +689,32 @@ Tyk's current ecosystem combines an open-source gateway with commercial manageme
 
 # 📖 Open-Source Developer Portals
 
-
-
 A developer portal is an essential component of API management.
 
-
-
 ```text
-
                  API Catalog
-
                      │
-
         ┌────────────┼────────────┐
-
         ▼            ▼            ▼
-
  Documentation    Try API      Credentials
-
         │            │            │
-
         └────────────┼────────────┘
-
                      ▼
-
                  Subscribe
-
 ```
 
-
-
-| Project                                                                             | Description                            |
-
-| ----------------------------------------------------------------------------------- | -------------------------------------- |
-
-| [WSO2 Developer Portal](https://github.com/wso2/product-apim)                       | API discovery and subscriptions        |
-
-| [Gravitee Developer Portal](https://github.com/gravitee-io/gravitee-api-management) | API catalog and consumption            |
-
-| [Swagger UI](https://github.com/swagger-api/swagger-ui)                             | Interactive OpenAPI documentation      |
-
-| [Redoc](https://github.com/Redocly/redoc)                                           | OpenAPI documentation                  |
-
-| [Scalar](https://github.com/scalar/scalar)                                          | Modern API reference and documentation |
-
-| [Docusaurus](https://github.com/facebook/docusaurus)                                | Documentation websites                 |
-
-| [MkDocs](https://github.com/mkdocs/mkdocs)                                          | Documentation generator                |
-
-| [Backstage](https://github.com/backstage/backstage)                                 | Developer portal / service catalog     |
-
-| [Port](https://www.getport.io/)                                                     | Developer portal platform              |
-
-| [OpenAPI Explorer](https://github.com/rohit-gohri/redoc)                            | OpenAPI exploration tooling            |
-
-
+| 📖 Project | 🌟 Stars | 📝 Description |
+| :--- | :---: | :--- |
+| [Docusaurus](https://github.com/facebook/docusaurus) | [![Stars](https://img.shields.io/github/stars/facebook/docusaurus?style=social&color=white)](https://github.com/facebook/docusaurus/stargazers) | Modern documentation platform with OpenAPI integrations |
+| [Scalar](https://github.com/scalar/scalar) | [![Stars](https://img.shields.io/github/stars/scalar/scalar?style=social&color=white)](https://github.com/scalar/scalar/stargazers) | Modern, beautiful API reference, client, and documentation portal |
+| [Swagger UI](https://github.com/swagger-api/swagger-ui) | [![Stars](https://img.shields.io/github/stars/swagger-api/swagger-ui?style=social&color=white)](https://github.com/swagger-api/swagger-ui/stargazers) | Standard interactive OpenAPI UI for exploring and testing endpoints |
+| [Backstage](https://github.com/backstage/backstage) | [![Stars](https://img.shields.io/github/stars/backstage/backstage?style=social&color=white)](https://github.com/backstage/backstage/stargazers) | Spotify's open platform for building developer portals and catalogs |
+| [Redoc](https://github.com/Redocly/redoc) | [![Stars](https://img.shields.io/github/stars/Redocly/redoc?style=social&color=white)](https://github.com/Redocly/redoc/stargazers) | Clean, responsive, three-panel OpenAPI documentation renderer |
+| [MkDocs](https://github.com/mkdocs/mkdocs) | [![Stars](https://img.shields.io/github/stars/mkdocs/mkdocs?style=social&color=white)](https://github.com/mkdocs/mkdocs/stargazers) | Fast, simple static site generator geared towards project docs |
+| [Docusaurus OpenAPI Docs](https://github.com/PaloAltoNetworks/docusaurus-openapi-docs) | [![Stars](https://img.shields.io/github/stars/PaloAltoNetworks/docusaurus-openapi-docs?style=social&color=white)](https://github.com/PaloAltoNetworks/docusaurus-openapi-docs/stargazers) | Plugin to generate interactive OpenAPI docs for Docusaurus |
+| [Gravitee Developer Portal](https://github.com/gravitee-io/gravitee-api-management) | [![Stars](https://img.shields.io/github/stars/gravitee-io/gravitee-api-management?style=social&color=white)](https://github.com/gravitee-io/gravitee-api-management/stargazers) | Self-service API catalog, documentation, and consumption portal |
+| [WSO2 Developer Portal](https://github.com/wso2/product-apim) | [![Stars](https://img.shields.io/github/stars/wso2/product-apim?style=social&color=white)](https://github.com/wso2/product-apim/stargazers) | Enterprise API discovery, self-registration, and subscriptions |
+| [OpenAPI Explorer](https://github.com/rohit-gohri/redoc) | [![Stars](https://img.shields.io/github/stars/rohit-gohri/redoc?style=social&color=white)](https://github.com/rohit-gohri/redoc/stargazers) | OpenAPI exploration and testing tooling |
 
 A powerful open-source approach is to combine an API gateway with **Backstage + Swagger UI/Redoc/Scalar** to build a customized internal API portal.
 
@@ -822,241 +726,122 @@ A powerful open-source approach is to combine an API gateway with **Backstage + 
 
 # 📝 Open-Source API Design & Specification Tools
 
-
-
 API management begins before deployment.
 
-
-
-| Project                                                                | Primary Role                      |
-
-| ---------------------------------------------------------------------- | --------------------------------- |
-
-| [OpenAPI Specification](https://github.com/OAI/OpenAPI-Specification)  | API contract standard             |
-
-| [Swagger UI](https://github.com/swagger-api/swagger-ui)                | Interactive documentation         |
-
-| [Swagger Editor](https://github.com/swagger-api/swagger-editor)        | OpenAPI editing                   |
-
-| [Redoc](https://github.com/Redocly/redoc)                              | API documentation                 |
-
-| [Scalar](https://github.com/scalar/scalar)                             | API references                    |
-
-| [Spectral](https://github.com/stoplightio/spectral)                    | API linting and governance        |
-
-| [Dredd](https://github.com/apiaryio/dredd)                             | API contract testing              |
-
-| [Prism](https://github.com/stoplightio/prism)                          | Mocking and validation            |
-
-| [Schemathesis](https://github.com/schemathesis/schemathesis)           | Property-based API testing        |
-
-| [RESTler](https://github.com/microsoft/restler-fuzzer)                 | API fuzz testing                  |
-
-| [OpenAPI Generator](https://github.com/OpenAPITools/openapi-generator) | SDK/server generation             |
-
-| [Kiota](https://github.com/microsoft/kiota)                            | API client generation             |
-
-| [openapi-diff](https://github.com/Tufin/oasdiff)                       | OpenAPI breaking-change detection |
-
-
+| 📝 Project | 🌟 Stars | 🎯 Primary Role |
+| :--- | :---: | :--- |
+| [Scalar](https://github.com/scalar/scalar) | [![Stars](https://img.shields.io/github/stars/scalar/scalar?style=social&color=white)](https://github.com/scalar/scalar/stargazers) | Modern API references, interactive design and client |
+| [Swagger UI](https://github.com/swagger-api/swagger-ui) | [![Stars](https://img.shields.io/github/stars/swagger-api/swagger-ui?style=social&color=white)](https://github.com/swagger-api/swagger-ui/stargazers) | Interactive API documentation & endpoint testing |
+| [Redoc](https://github.com/Redocly/redoc) | [![Stars](https://img.shields.io/github/stars/Redocly/redoc?style=social&color=white)](https://github.com/Redocly/redoc/stargazers) | Three-panel responsive API documentation |
+| [OpenAPI Generator](https://github.com/OpenAPITools/openapi-generator) | [![Stars](https://img.shields.io/github/stars/OpenAPITools/openapi-generator?style=social&color=white)](https://github.com/OpenAPITools/openapi-generator/stargazers) | SDK, API client, and server stub generation (50+ languages) |
+| [OpenAPI Specification](https://github.com/OAI/OpenAPI-Specification) | [![Stars](https://img.shields.io/github/stars/OAI/OpenAPI-Specification?style=social&color=white)](https://github.com/OAI/OpenAPI-Specification/stargazers) | Global standard description format for RESTful APIs |
+| [Swagger Editor](https://github.com/swagger-api/swagger-editor) | [![Stars](https://img.shields.io/github/stars/swagger-api/swagger-editor?style=social&color=white)](https://github.com/swagger-api/swagger-editor/stargazers) | Browser-based OpenAPI definition editor & validator |
+| [Prism](https://github.com/stoplightio/prism) | [![Stars](https://img.shields.io/github/stars/stoplightio/prism?style=social&color=white)](https://github.com/stoplightio/prism/stargazers) | OpenAPI-driven HTTP mock server and contract validation |
+| [Spectral](https://github.com/stoplightio/spectral) | [![Stars](https://img.shields.io/github/stars/stoplightio/spectral?style=social&color=white)](https://github.com/stoplightio/spectral/stargazers) | Flexible JSON/YAML linter for API style guides and governance |
+| [Schemathesis](https://github.com/schemathesis/schemathesis) | [![Stars](https://img.shields.io/github/stars/schemathesis/schemathesis?style=social&color=white)](https://github.com/schemathesis/schemathesis/stargazers) | Property-based testing & fuzzing for OpenAPI/GraphQL |
+| [openapi-diff](https://github.com/Tufin/oasdiff) | [![Stars](https://img.shields.io/github/stars/Tufin/oasdiff?style=social&color=white)](https://github.com/Tufin/oasdiff/stargazers) | OpenAPI breaking-change detector, diff engine and linter |
+| [Dredd](https://github.com/apiaryio/dredd) | [![Stars](https://img.shields.io/github/stars/apiaryio/dredd?style=social&color=white)](https://github.com/apiaryio/dredd/stargazers) | HTTP API contract testing against API documentation |
+| [RESTler](https://github.com/microsoft/restler-fuzzer) | [![Stars](https://img.shields.io/github/stars/microsoft/restler-fuzzer?style=social&color=white)](https://github.com/microsoft/restler-fuzzer/stargazers) | Stateful REST API fuzzing and vulnerability finder |
+| [Kiota](https://github.com/microsoft/kiota) | [![Stars](https://img.shields.io/github/stars/microsoft/kiota?style=social&color=white)](https://github.com/microsoft/kiota/stargazers) | Lightweight OpenAPI client generator by Microsoft |
 
 ---
-
-
 
 # 🔐 Open-Source API Security
 
-
-
 API management and API security are closely related but not identical.
-
-
 
 Useful projects include:
 
-
-
-| Project                                                         | Role                                   |
-
-| --------------------------------------------------------------- | -------------------------------------- |
-
-| [Keycloak](https://github.com/keycloak/keycloak)                | Identity and access management         |
-
-| [Open Policy Agent](https://github.com/open-policy-agent/opa)   | Policy engine                          |
-
-| [Envoy](https://github.com/envoyproxy/envoy)                    | Security-aware proxy                   |
-
-| [Apache APISIX](https://github.com/apache/apisix)               | Gateway security policies              |
-
-| [Kong](https://github.com/Kong/kong)                            | Gateway authentication / authorization |
-
-| [Tyk](https://github.com/TykTechnologies/tyk)                   | API authentication and policies        |
-
-| [Coraza](https://github.com/corazawaf/coraza)                   | Open-source WAF                        |
-
-| [ModSecurity](https://github.com/owasp-modsecurity/ModSecurity) | Web application firewall               |
-
-| [OWASP CRS](https://github.com/coreruleset/coreruleset)         | WAF ruleset                            |
-
-| [oauth2-proxy](https://github.com/oauth2-proxy/oauth2-proxy)    | Authentication proxy                   |
-
-| [SPIRE](https://github.com/spiffe/spire)                        | Workload identity                      |
-
-| [cert-manager](https://github.com/cert-manager/cert-manager)    | TLS certificate automation             |
-
-
+| 🔐 Project | 🌟 Stars | 🛡️ Role |
+| :--- | :---: | :--- |
+| [Envoy](https://github.com/envoyproxy/envoy) | [![Stars](https://img.shields.io/github/stars/envoyproxy/envoy?style=social&color=white)](https://github.com/envoyproxy/envoy/stargazers) | Security-aware high-performance proxy & mTLS terminator |
+| [Keycloak](https://github.com/keycloak/keycloak) | [![Stars](https://img.shields.io/github/stars/keycloak/keycloak?style=social&color=white)](https://github.com/keycloak/keycloak/stargazers) | Open-source IAM, OAuth2, OIDC, and SAML identity broker |
+| [Apache APISIX](https://github.com/apache/apisix) | [![Stars](https://img.shields.io/github/stars/apache/apisix?style=social&color=white)](https://github.com/apache/apisix/stargazers) | Gateway security policies, token introspection, and WAF |
+| [cert-manager](https://github.com/cert-manager/cert-manager) | [![Stars](https://img.shields.io/github/stars/cert-manager/cert-manager?style=social&color=white)](https://github.com/cert-manager/cert-manager/stargazers) | Automated TLS/mTLS certificate management for Kubernetes |
+| [Open Policy Agent](https://github.com/open-policy-agent/opa) | [![Stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=social&color=white)](https://github.com/open-policy-agent/opa/stargazers) | Flexible, general-purpose policy engine for microservices & APIs |
+| [Tyk](https://github.com/TykTechnologies/tyk) | [![Stars](https://img.shields.io/github/stars/TykTechnologies/tyk?style=social&color=white)](https://github.com/TykTechnologies/tyk/stargazers) | Gateway-level authentication, authorization, and rate limiting |
+| [oauth2-proxy](https://github.com/oauth2-proxy/oauth2-proxy) | [![Stars](https://img.shields.io/github/stars/oauth2-proxy/oauth2-proxy?style=social&color=white)](https://github.com/oauth2-proxy/oauth2-proxy/stargazers) | Reverse proxy providing authentication using OIDC / OAuth2 |
+| [ModSecurity](https://github.com/owasp-modsecurity/ModSecurity) | [![Stars](https://img.shields.io/github/stars/owasp-modsecurity/ModSecurity?style=social&color=white)](https://github.com/owasp-modsecurity/ModSecurity/stargazers) | Battle-tested web application firewall engine |
+| [OWASP CRS](https://github.com/coreruleset/coreruleset) | [![Stars](https://img.shields.io/github/stars/coreruleset/coreruleset?style=social&color=white)](https://github.com/coreruleset/coreruleset/stargazers) | Generic attack detection rules for WAFs against OWASP Top 10 |
+| [Coraza](https://github.com/corazawaf/coraza) | [![Stars](https://img.shields.io/github/stars/corazawaf/coraza?style=social&color=white)](https://github.com/corazawaf/coraza/stargazers) | Enterprise-grade Golang Web Application Firewall |
+| [SPIRE](https://github.com/spiffe/spire) | [![Stars](https://img.shields.io/github/stars/spiffe/spire?style=social&color=white)](https://github.com/spiffe/spire/stargazers) | Workload identity provider using SPIFFE standards |
 
 ---
-
-
 
 # ⚡ Open-Source API Traffic Management
 
-
-
 Modern API gateways commonly implement:
 
-
-
 ```text
-
 Rate Limiting
-
      │
-
      ├── Requests / second
-
      ├── Requests / minute
-
      ├── Token limits
-
      └── Consumer quotas
 
-
-
 Traffic Control
-
      │
-
      ├── Load balancing
-
      ├── Retries
-
      ├── Circuit breaking
-
      ├── Timeouts
-
      └── Failover
 
-
-
 Routing
-
      │
-
      ├── Host-based
-
      ├── Path-based
-
      ├── Header-based
-
      ├── Canary
-
      └── Weighted
-
 ```
-
-
 
 Strong open-source choices:
 
-
-
-| Project       | Strength                     |
-
-| ------------- | ---------------------------- |
-
-| Apache APISIX | Dynamic traffic management   |
-
-| Kong          | Mature plugin ecosystem      |
-
-| Envoy         | Advanced proxying            |
-
-| Tyk           | API-specific policies        |
-
-| Traefik       | Cloud-native routing         |
-
-| KrakenD       | High-performance aggregation |
-
-| Gloo Gateway  | Kubernetes-native gateway    |
-
-| Higress       | Cloud-native gateway         |
-
-| NGINX         | Mature reverse proxy         |
-
-
+| ⚡ Project | 🌟 Stars | 🚀 Strength |
+| :--- | :---: | :--- |
+| [Traefik](https://github.com/traefik/traefik) | [![Stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers) | Cloud-native routing & automatic service discovery |
+| [Kong](https://github.com/Kong/kong) | [![Stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers) | Mature rate limiting, canary releases, & plugin ecosystem |
+| [Envoy](https://github.com/envoyproxy/envoy) | [![Stars](https://img.shields.io/github/stars/envoyproxy/envoy?style=social&color=white)](https://github.com/envoyproxy/envoy/stargazers) | Advanced connection pooling, circuit breaking, & retries |
+| [NGINX](https://github.com/nginx/nginx) | [![Stars](https://img.shields.io/github/stars/nginx/nginx?style=social&color=white)](https://github.com/nginx/nginx/stargazers) | Extremely battle-tested reverse proxying & load balancing |
+| [Apache APISIX](https://github.com/apache/apisix) | [![Stars](https://img.shields.io/github/stars/apache/apisix?style=social&color=white)](https://github.com/apache/apisix/stargazers) | Ultra-dynamic traffic splitting, canary, & zero-reload routing |
+| [Tyk](https://github.com/TykTechnologies/tyk) | [![Stars](https://img.shields.io/github/stars/TykTechnologies/tyk?style=social&color=white)](https://github.com/TykTechnologies/tyk/stargazers) | Fine-grained API quotas, rate limiting, & token management |
+| [KrakenD](https://github.com/krakendio/krakend-ce) | [![Stars](https://img.shields.io/github/stars/krakendio/krakend-ce?style=social&color=white)](https://github.com/krakendio/krakend-ce/stargazers) | High-throughput stateless request aggregation & manipulation |
+| [Lunar.dev](https://github.com/lunar-labs/lunar) | [![Stars](https://img.shields.io/github/stars/lunar-labs/lunar?style=social&color=white)](https://github.com/lunar-labs/lunar/stargazers) | API consumption management, egress rate limiting, and caching |
+| [Higress](https://github.com/alibaba/higress) | [![Stars](https://img.shields.io/github/stars/alibaba/higress?style=social&color=white)](https://github.com/alibaba/higress/stargazers) | Ingress + API Gateway integrated traffic management |
+| [Gloo Gateway](https://github.com/kgateway-dev/kgateway) | [![Stars](https://img.shields.io/github/stars/kgateway-dev/kgateway?style=social&color=white)](https://github.com/kgateway-dev/kgateway/stargazers) | Kubernetes Gateway API traffic routing & Envoy control plane |
 
 ---
 
-
-
 # 📊 Open-Source API Analytics & Observability
-
-
 
 API management needs visibility into:
 
-
-
 * Requests
-
 * Latency
-
 * Errors
-
 * Consumers
-
 * API versions
-
 * Endpoints
-
 * Status codes
-
 * Traffic
-
 * Rate limits
-
 * Authentication failures
-
 * Upstream failures
 
-
-
-| Project                                                                    | Role                |
-
-| -------------------------------------------------------------------------- | ------------------- |
-
-| [Prometheus](https://github.com/prometheus/prometheus)                     | Metrics             |
-
-| [Grafana](https://github.com/grafana/grafana)                              | Dashboards          |
-
-| [OpenTelemetry](https://github.com/open-telemetry/opentelemetry-collector) | Telemetry           |
-
-| [Jaeger](https://github.com/jaegertracing/jaeger)                          | Distributed tracing |
-
-| [Zipkin](https://github.com/openzipkin/zipkin)                             | Distributed tracing |
-
-| [Apache SkyWalking](https://github.com/apache/skywalking)                  | Observability       |
-
-| [Loki](https://github.com/grafana/loki)                                    | Log aggregation     |
-
-| [ClickHouse](https://github.com/ClickHouse/ClickHouse)                     | Analytics database  |
-
-| [OpenSearch](https://github.com/opensearch-project/OpenSearch)             | Search / analytics  |
-
-| [VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics)      | Metrics storage     |
-
-
+| 📊 Project | 🌟 Stars | 🔍 Role |
+| :--- | :---: | :--- |
+| [Grafana](https://github.com/grafana/grafana) | [![Stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers) | Unified operational dashboards, analytics, and visualization |
+| [Prometheus](https://github.com/prometheus/prometheus) | [![Stars](https://img.shields.io/github/stars/prometheus/prometheus?style=social&color=white)](https://github.com/prometheus/prometheus/stargazers) | Time-series metrics collection, alerting, and monitoring |
+| [ClickHouse](https://github.com/ClickHouse/ClickHouse) | [![Stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white)](https://github.com/ClickHouse/ClickHouse/stargazers) | High-speed columnar analytics database for API request logs |
+| [Apache SkyWalking](https://github.com/apache/skywalking) | [![Stars](https://img.shields.io/github/stars/apache/skywalking?style=social&color=white)](https://github.com/apache/skywalking/stargazers) | APM, distributed tracing, and mesh observability |
+| [Loki](https://github.com/grafana/loki) | [![Stars](https://img.shields.io/github/stars/grafana/loki?style=social&color=white)](https://github.com/grafana/loki/stargazers) | Horizontally-scalable, log aggregation system |
+| [Jaeger](https://github.com/jaegertracing/jaeger) | [![Stars](https://img.shields.io/github/stars/jaegertracing/jaeger?style=social&color=white)](https://github.com/jaegertracing/jaeger/stargazers) | CNCF distributed tracing and latency root-cause analysis |
+| [Zipkin](https://github.com/openzipkin/zipkin) | [![Stars](https://img.shields.io/github/stars/openzipkin/zipkin?style=social&color=white)](https://github.com/openzipkin/zipkin/stargazers) | Distributed tracing system for latency troubleshooting |
+| [VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics) | [![Stars](https://img.shields.io/github/stars/VictoriaMetrics/VictoriaMetrics?style=social&color=white)](https://github.com/VictoriaMetrics/VictoriaMetrics/stargazers) | Cost-effective, long-term storage for Prometheus metrics |
+| [OpenSearch](https://github.com/opensearch-project/OpenSearch) | [![Stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers) | Distributed search and analytics suite for API logs |
+| [OpenTelemetry](https://github.com/open-telemetry/opentelemetry-collector) | [![Stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-collector?style=social&color=white)](https://github.com/open-telemetry/opentelemetry-collector/stargazers) | Vendor-agnostic telemetry ingestion, processing, & export |
 
 Example:
 
@@ -1098,37 +883,20 @@ Example:
 
 # ☸️ Open-Source Kubernetes API Management
 
-
-
 Kubernetes has become a major deployment environment for API gateways.
 
-
-
-| Project       | Kubernetes Capability            |
-
-| ------------- | -------------------------------- |
-
-| Apache APISIX | Ingress Controller / Gateway API |
-
-| Kong          | Kong Ingress Controller          |
-
-| Envoy Gateway | Kubernetes Gateway API           |
-
-| Traefik       | Kubernetes-native routing        |
-
-| Gloo Gateway  | Kubernetes Gateway API           |
-
-| Tyk           | Kubernetes integration           |
-
-| Gravitee      | Kubernetes deployment            |
-
-| NGINX Ingress | Kubernetes ingress               |
-
-| HAProxy       | Kubernetes ingress               |
-
-| Higress       | Kubernetes-native gateway        |
-
-
+| ☸️ Project | 🌟 Stars | ⚙️ Kubernetes Capability |
+| :--- | :---: | :--- |
+| [Traefik](https://github.com/traefik/traefik) | [![Stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers) | Native Ingress, CRDs, and Gateway API provider |
+| [NGINX Ingress](https://github.com/kubernetes/ingress-nginx) | [![Stars](https://img.shields.io/github/stars/kubernetes/ingress-nginx?style=social&color=white)](https://github.com/kubernetes/ingress-nginx/stargazers) | Community-standard Kubernetes Ingress Controller |
+| [Kong Ingress Controller](https://github.com/Kong/kubernetes-ingress-controller) | [![Stars](https://img.shields.io/github/stars/Kong/kubernetes-ingress-controller?style=social&color=white)](https://github.com/Kong/kubernetes-ingress-controller/stargazers) | Ingress controller & Gateway API for Kong Gateway |
+| [Envoy Gateway](https://github.com/envoyproxy/gateway) | [![Stars](https://img.shields.io/github/stars/envoyproxy/gateway?style=social&color=white)](https://github.com/envoyproxy/gateway/stargazers) | Official Envoy project for Kubernetes Gateway API |
+| [Higress](https://github.com/alibaba/higress) | [![Stars](https://img.shields.io/github/stars/alibaba/higress?style=social&color=white)](https://github.com/alibaba/higress/stargazers) | Cloud-native gateway with built-in Kubernetes Gateway API |
+| [Gloo Gateway](https://github.com/kgateway-dev/kgateway) | [![Stars](https://img.shields.io/github/stars/kgateway-dev/kgateway?style=social&color=white)](https://github.com/kgateway-dev/kgateway/stargazers) | Kubernetes Gateway API implementation based on Envoy |
+| [APISIX Ingress Controller](https://github.com/apache/apisix-ingress-controller) | [![Stars](https://img.shields.io/github/stars/apache/apisix-ingress-controller?style=social&color=white)](https://github.com/apache/apisix-ingress-controller/stargazers) | Declarative CRDs and Gateway API for Apache APISIX |
+| [HAProxy Ingress](https://github.com/haproxytech/kubernetes-ingress) | [![Stars](https://img.shields.io/github/stars/haproxytech/kubernetes-ingress?style=social&color=white)](https://github.com/haproxytech/kubernetes-ingress/stargazers) | High-performance HAProxy-based Kubernetes ingress |
+| [Tyk Operator](https://github.com/TykTechnologies/tyk-operator) | [![Stars](https://img.shields.io/github/stars/TykTechnologies/tyk-operator?style=social&color=white)](https://github.com/TykTechnologies/tyk-operator/stargazers) | GitOps-driven Kubernetes operator for Tyk API definitions |
+| [Gravitee Operator](https://github.com/gravitee-io/gravitee-kubernetes-operator) | [![Stars](https://img.shields.io/github/stars/gravitee-io/gravitee-kubernetes-operator?style=social&color=white)](https://github.com/gravitee-io/gravitee-kubernetes-operator/stargazers) | Kubernetes native API deployment CRDs for Gravitee |
 
 A modern Kubernetes API management architecture:
 
@@ -1176,59 +944,32 @@ A modern Kubernetes API management architecture:
 
 # 🤖 Open-Source AI & LLM API Gateways
 
-
-
 API management is increasingly expanding into **AI Gateway** functionality.
-
-
 
 Capabilities include:
 
-
-
 * LLM provider routing
-
 * Model routing
-
 * Token-based rate limiting
-
 * Cost controls
-
 * Provider fallback
-
 * Prompt security
-
 * AI observability
-
 * Model access policies
-
 * MCP governance
 
-
-
-| Project                                                      | AI Gateway Capability                           |
-
-| ------------------------------------------------------------ | ----------------------------------------------- |
-
-| [Apache APISIX](https://github.com/apache/apisix)            | LLM proxy, routing, token limits and AI plugins |
-
-| [Kong AI Gateway](https://github.com/Kong/kong)              | LLM traffic management                          |
-
-| [LiteLLM](https://github.com/BerriAI/litellm)                | Unified LLM gateway                             |
-
-| [Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway) | Kubernetes-native AI gateway                    |
-
-| [Portkey](https://github.com/Portkey-AI/gateway)             | LLM gateway                                     |
-
-| [TrueFoundry](https://github.com/truefoundry)                | AI infrastructure / gateway                     |
-
-| [Higress](https://github.com/alibaba/higress)                | AI gateway capabilities                         |
-
-| [Helicone](https://github.com/Helicone/helicone)             | LLM observability / gateway                     |
-
-| [OpenRouter](https://openrouter.ai/)                         | Hosted multi-model routing                      |
-
-
+| 🤖 Project | 🌟 Stars | 🧠 AI Gateway Capability |
+| :--- | :---: | :--- |
+| [Kong AI Gateway](https://github.com/Kong/kong) | [![Stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers) | Multi-LLM traffic management, prompts, & token quotas |
+| [LiteLLM](https://github.com/BerriAI/litellm) | [![Stars](https://img.shields.io/github/stars/BerriAI/litellm?style=social&color=white)](https://github.com/BerriAI/litellm/stargazers) | Unified proxy for 100+ LLMs with load balancing & spend tracking |
+| [Langfuse](https://github.com/langfuse/langfuse) | [![Stars](https://img.shields.io/github/stars/langfuse/langfuse?style=social&color=white)](https://github.com/langfuse/langfuse/stargazers) | Open-source LLM engineering platform, tracing, & metrics |
+| [Apache APISIX AI Gateway](https://github.com/apache/apisix) | [![Stars](https://img.shields.io/github/stars/apache/apisix?style=social&color=white)](https://github.com/apache/apisix/stargazers) | High-performance LLM routing, token rate limits, & AI plugins |
+| [Portkey](https://github.com/Portkey-AI/gateway) | [![Stars](https://img.shields.io/github/stars/Portkey-AI/gateway?style=social&color=white)](https://github.com/Portkey-AI/gateway/stargazers) | Enterprise AI gateway with guardrails, fallbacks, & caching |
+| [Helicone](https://github.com/Helicone/helicone) | [![Stars](https://img.shields.io/github/stars/Helicone/helicone?style=social&color=white)](https://github.com/Helicone/helicone/stargazers) | LLM observability, cost tracking, caching, & gateway |
+| [Higress](https://github.com/alibaba/higress) | [![Stars](https://img.shields.io/github/stars/alibaba/higress?style=social&color=white)](https://github.com/alibaba/higress/stargazers) | AI gateway capabilities, multi-model fallback, & token throttling |
+| [Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway) | [![Stars](https://img.shields.io/github/stars/envoyproxy/ai-gateway?style=social&color=white)](https://github.com/envoyproxy/ai-gateway/stargazers) | Kubernetes-native AI gateway initiative using Envoy |
+| [ArchGW](https://github.com/archgw/archgw) | [![Stars](https://img.shields.io/github/stars/archgw/archgw?style=social&color=white)](https://github.com/archgw/archgw/stargazers) | Intelligent AI-native gateway for agents and fast LLM routing |
+| [TrueFoundry](https://github.com/truefoundry) | [![Stars](https://img.shields.io/github/stars/truefoundry?style=social&color=white)](https://github.com/truefoundry/stargazers) | Unified AI infrastructure & LLM gateway management |
 
 Apache APISIX currently positions itself as both an API gateway and AI gateway, including LLM provider routing, token rate limiting, retries/fallbacks and MCP-related functionality.
 
@@ -1240,35 +981,20 @@ Apache APISIX currently positions itself as both an API gateway and AI gateway, 
 
 # 🌐 Open-Source GraphQL API Management
 
-
-
 GraphQL introduces a different API management model.
 
-
-
-| Project                                                      | Role                            |
-
-| ------------------------------------------------------------ | ------------------------------- |
-
-| [Apollo Router](https://github.com/apollographql/router)     | GraphQL federation gateway      |
-
-| [GraphQL Yoga](https://github.com/graphql-hive/graphql-yoga) | GraphQL server                  |
-
-| [GraphQL Mesh](https://github.com/ardatan/graphql-mesh)      | API federation / transformation |
-
-| [Hasura](https://github.com/hasura/graphql-engine)           | GraphQL data API                |
-
-| [GraphQL Hive](https://github.com/graphql-hive/console)      | GraphQL registry / analytics    |
-
-| [Lago](https://github.com/getlago/lago)                      | Usage-based billing for APIs    |
-
-| [Tyk](https://github.com/TykTechnologies/tyk)                | GraphQL gateway capabilities    |
-
-
+| 🌐 Project | 🌟 Stars | 🧩 Role |
+| :--- | :---: | :--- |
+| [Hasura](https://github.com/hasura/graphql-engine) | [![Stars](https://img.shields.io/github/stars/hasura/graphql-engine?style=social&color=white)](https://github.com/hasura/graphql-engine/stargazers) | Instant, high-performance GraphQL API engine over databases |
+| [Tyk](https://github.com/TykTechnologies/tyk) | [![Stars](https://img.shields.io/github/stars/TykTechnologies/tyk?style=social&color=white)](https://github.com/TykTechnologies/tyk/stargazers) | Native Universal Data Graph & GraphQL rate limiting / auth |
+| [Lago](https://github.com/getlago/lago) | [![Stars](https://img.shields.io/github/stars/getlago/lago?style=social&color=white)](https://github.com/getlago/lago/stargazers) | Open-source usage-based billing & monetization for APIs |
+| [GraphQL Yoga](https://github.com/graphql-hive/graphql-yoga) | [![Stars](https://img.shields.io/github/stars/graphql-hive/graphql-yoga?style=social&color=white)](https://github.com/graphql-hive/graphql-yoga/stargazers) | Fully-featured, extensible GraphQL server runtime |
+| [GraphQL Mesh](https://github.com/ardatan/graphql-mesh) | [![Stars](https://img.shields.io/github/stars/ardatan/graphql-mesh?style=social&color=white)](https://github.com/ardatan/graphql-mesh/stargazers) | API federation and query transformation gateway |
+| [Apollo Router](https://github.com/apollographql/router) | [![Stars](https://img.shields.io/github/stars/apollographql/router?style=social&color=white)](https://github.com/apollographql/router/stargazers) | High-performance Rust-based GraphQL federation gateway |
+| [Tailcall](https://github.com/tailcallhq/tailcall) | [![Stars](https://img.shields.io/github/stars/tailcallhq/tailcall?style=social&color=white)](https://github.com/tailcallhq/tailcall/stargazers) | High-performance, declarative GraphQL gateway written in Rust |
+| [GraphQL Hive](https://github.com/graphql-hive/console) | [![Stars](https://img.shields.io/github/stars/graphql-hive/console?style=social&color=white)](https://github.com/graphql-hive/console/stargazers) | Open-source GraphQL schema registry, analytics & alerts |
 
 ---
-
-
 
 # 🧩 Open-Source API Gateway Plugins & Extensions
 
@@ -3699,6 +3425,12 @@ The strongest open-source approach is therefore often **composable rather than m
 ---
 
 
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-API-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-API-Management&type=date&legend=top-left)
+
+---
 
 ## ⭐ Star This Repository
 
