@@ -222,9 +222,8 @@ Commercial API management platforms provide combinations of API gateways, develo
 | [Sensedia](https://www.sensedia.com/) | Sensedia | Valuation ~$150M / Revenue ~$40M | Growth package: ~$1,500/month (up to 2 million API calls/month) | 30-day free trial sandbox with gateway, analytics, and developer portal | API management | Gateway, governance, developer portal, integration |
 | [Tyk](https://tyk.io/) | Tyk | Valuation ~$120M / ARR ~$25M | Tyk Cloud PayG: $0.07/hour (~$50/month) base; Developer plan: $120/month | 14-day free trial with unlimited API calls, full dashboard & developer portal; OSS gateway is free forever | API management | Gateway, dashboard, developer portal, analytics, GraphQL |
 | [DreamFactory](https://www.dreamfactory.com/) | DreamFactory | Valuation ~$20M / Revenue ~$5M | Standard plan: $499/month (instant REST APIs, unlimited databases) | 14-day free trial with unlimited API generation, connecting up to 5 databases | API generation | Automatic REST APIs for databases, SOAP-to-REST, enterprise auth |
-
+| [APIClaw](https://apiclaw.biz/) | APIClaw | Seed / Bootstrapped | Flat-rate: $19–$129/month | Free 50-request trial | Flat-rate OpenAI-compatible AI API gateway | One endpoint for Claude, OpenAI, Kimi, Qwen, DeepSeek, GLM; model routing, rate limiting |
 > **Note:** API platforms vary substantially in scope. Some are primarily API lifecycle/developer platforms, while others are gateway-first API management systems. Postman and Stoplight, for example, are especially strong in API development workflows, while Apigee, Kong, Azure APIM, WSO2 and MuleSoft span broader API management capabilities.
-
 
 
 ---
